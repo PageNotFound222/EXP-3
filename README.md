@@ -1,0 +1,63 @@
+# EXP-3
+EXP-1 C++ BY PRATHAMESH GALPHADE PRN-24070123123
+
+//EXPERIMENT 3A-CHECKING A NUMBER IS POSITIVE OR NOT
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number;
+    cout << "Enter a number: ";
+    cin >> number;
+
+    if (number > 0) {
+        cout << "The number is positive." << endl;
+    } else if (number < 0) {
+        cout << "The number is negative." << endl;
+    } else {
+        cout << "The number is zero." << endl;
+    }
+
+    return 0;
+}
+//EXPERIMENT 3B-CALCULATING THE GRADE OF THE STUDENT BASED ON HIS AVG GRADE
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int matMarks, phyMarks, chemMarks;
+    float average;
+
+    cout << "Enter the marks of Maths: ";
+    cin >> matMarks;
+
+    cout << "Enter the marks of Physics: ";
+    cin >> phyMarks;
+
+    cout << "Enter the marks of Chemistry: ";
+    cin >> chemMarks;
+
+    average = (matMarks + phyMarks + chemMarks) / 3.0;
+    cout << "The average marks are: " << average << endl;
+
+    if (average >= 90 && average <= 100) {
+        cout << "Grade: A" << endl;
+    } else if (average >= 80 && average < 90) {
+        cout << "Grade: B" << endl;
+    } else if (average >= 70 && average < 80) {
+        cout << "Grade: C" << endl;
+    } else if (average >= 60 && average < 70) {
+        cout << "Grade: D" << endl;
+    } else if (average >= 40 && average < 60) {
+        cout << "Grade: E (P)" << endl;
+    } else if (average >= 0 && average < 40) {
+        cout << "Grade: F (F)" << endl;
+    } else {
+        cout << "Invalid marks entered!" << endl;
+    }
+
+    return 0;
+}
+
