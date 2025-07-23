@@ -1,10 +1,21 @@
-# EXPERIMENT 3A,3B,3C
+# EXPERIMENT 3:To study and implement Operators in C++
 ## NAME:PRATHAMESH GALPHADE
 ## PRN-24070123123
 
-In this experiment, we explored different types of operators used in C++ to perform various operations on data. Operators are essential building blocks that allow us to process and manipulate values effectively. We practiced using arithmetic, relational, logical, bitwise, assignment, and miscellaneous operators with simple programs.
+### THEORY
+In C++, operators are special symbols that tell the compiler to perform certain operations—like math, logic, or comparisons. The language includes a variety of built-in operators such as arithmetic, relational, logical, bitwise, and assignment operators.
 
-The goal was to understand how each operator works, where it’s used, and how operator precedence affects the result of expressions.
+Arithmetic & Relational Operators:
+Arithmetic operators handle basic math operations like addition, subtraction, and multiplication. Relational operators are used to compare values—for example, to check if one number is greater than another. They return true or false, which is useful in decision-making.
+
+Logical & Bitwise Operators:
+Logical operators are used to combine or invert boolean conditions, which helps control how a program behaves based on multiple checks. Bitwise operators, on the other hand, work at the bit level and are more common in low-level tasks like graphics or encryption.
+
+Assignment Operators:
+Assignment operators are used to assign values to variables. Whether you're giving a variable a new value or updating it using a mathematical operation, assignment operators make it easier to manage and manipulate data in your program.
+
+Implementation Summary:
+In this practical, I applied different types of operators in a few simple programs. These include checking if a number is positive or negative, assigning student grades based on average marks, and determining the quadrant of a coordinate. It was a helpful way to understand how operators work together in real scenarios.
 
 ### EXPERIMENT 3A
 CHECKING WHEATHER THE NUMBER IS POSITIVE OR NOT:
